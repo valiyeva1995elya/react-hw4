@@ -1,0 +1,9 @@
+.done{
+    text-decoration: line-through;
+    
+}
+.important{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
