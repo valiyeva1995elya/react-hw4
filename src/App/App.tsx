@@ -104,6 +104,7 @@ export default class App extends Component<{}, IAppState> {
                     onSearch={this.onSearch}
                 />
                 <FilterButtons
+                    filter={this.state.filterText}
                     onFilter={this.onFilter}
                 />
                 <TodoList
